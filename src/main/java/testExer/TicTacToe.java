@@ -45,7 +45,7 @@ public class TicTacToe {
             enterValue();
             if(!checkNumberIsFree(number,value))
                 continue;
-            plaiyngFiled.reWriteMap(number,value);
+            plaiyngFiled.showCurrentfield();
             whoIsNext++;
         }
     }

@@ -74,14 +74,14 @@ public class PlaiyngFiled {
                     map.get(7).equals(map.get(8)) & map.get(8).equals(map.get(9)) |
                     map.get(4).equals(map.get(5)) & map.get(5).equals(map.get(6)) |
                     map.get(3).equals(map.get(5)) & map.get(5).equals(map.get(7)) ){
-                if(     map.get(1).equals(map.get(4).equals(map.get(7).equals("X")))|
-                        map.get(1).equals(map.get(2).equals(map.get(3).equals("X")))|
-                        map.get(1).equals(map.get(5).equals(map.get(9).equals("X")))|
-                        map.get(3).equals(map.get(6).equals(map.get(9).equals("X")))|
-                        map.get(3).equals(map.get(5).equals(map.get(7).equals("X")))|
-                        map.get(7).equals(map.get(8).equals(map.get(9).equals("X")))|
-                        map.get(4).equals(map.get(5).equals(map.get(6).equals("X")))|
-                        map.get(2).equals(map.get(5).equals(map.get(8).equals("X")))){
+                if(     map.get(1).equals("X") & map.get(4).equals("X") & map.get(7).equals("X")|
+                        map.get(1).equals("X") & map.get(2).equals("X") & map.get(3).equals("X")|
+                        map.get(1).equals("X") & map.get(5).equals("X") & map.get(9).equals("X")|
+                        map.get(3).equals("X") & map.get(6).equals("X") & map.get(9).equals("X")|
+                        map.get(3).equals("X") & map.get(5).equals("X") & map.get(7).equals("X")|
+                        map.get(7).equals("X") & map.get(8).equals("X") & map.get(9).equals("X")|
+                        map.get(4).equals("X") & map.get(5).equals("X") & map.get(6).equals("X")|
+                        map.get(2).equals("X") & map.get(5).equals("X") & map.get(8).equals("X")){
                     System.out.println("Game is over, “X” won");
                     return true;
                 }
